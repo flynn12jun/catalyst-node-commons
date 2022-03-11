@@ -305,10 +305,10 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@dcl/catalyst-contracts@^0.1.0-20220308184742.commit-9403cb1":
-  version "0.1.0-20220308184742.commit-9403cb1"
-  resolved "https://registry.yarnpkg.com/@dcl/catalyst-contracts/-/catalyst-contracts-0.1.0-20220308184742.commit-9403cb1.tgz#945cf47acbea1af453e3697a9f8574080d023622"
-  integrity sha512-qNjnCuZSCD9sAC6JPMsofEQuult4Ge/2RXQ1MOXcYPtz/SyJoAsROiorpIxLDWZ2yMf+75+gi0sJLOeA3MxLFQ==
+"@dcl/catalyst-contracts@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@dcl/catalyst-contracts/-/catalyst-contracts-1.0.2.tgz#c381b10fe7640f9abba33e8d0e87b05ddaa12ced"
+  integrity sha512-70iqpqsM0DYAMBxRVhRn4HIMm5NDql3nJL5HVvSxB8Kg2utuODCsRUYL8Ngk7BWVh3UM33eiSm75OLwtjTnwBA==
   dependencies:
     bn.js "5.2.0"
     dcl-crypto "2.3.0"
