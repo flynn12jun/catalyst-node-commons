@@ -1511,7 +1511,7 @@
     "@typescript-eslint/types" "5.21.0"
     eslint-visitor-keys "^3.0.0"
 
-"@well-known-components/http-server@^1.1.1":
+"@well-known-components/http-server@^1.0.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@well-known-components/http-server/-/http-server-1.1.1.tgz#dc6622c26090771e4d30c25047b9664403e479fe"
   integrity sha512-4m/IztehCfne/YNNmw4enCuSJbtGyouQwZ8HMyWQ2dylRgH2s016t4jgUJOTtnOwRMn0tbVtCpDpFEG/FpB24g==
@@ -1529,7 +1529,7 @@
     on-finished "^2.3.0"
     path-to-regexp "^6.2.0"
 
-"@well-known-components/interfaces@^1.1.0":
+"@well-known-components/interfaces@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@well-known-components/interfaces/-/interfaces-1.1.1.tgz#d7e6552dd9ebee9ff9a2c9b5e1a88fc8247eb106"
   integrity sha512-LCIBhzHvxXhT/uXrMXuvfWsIcHmK9lQ65StVMOgkPRqzo29X3U4crUB/dy2wFYITE5WnLUk/d25tpOKvvOlUeA==
