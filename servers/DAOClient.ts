@@ -92,11 +92,6 @@ export class DAOContractClient implements DAOClient {
 * date: 2022/10/10
 * */
 export const networks = {
-  // todo 这里先写死，后续在考虑怎么实现
-  zqb: {
-    wss: '',
-    http: 'http://192.168.215.27:8545'
-  },
   ropsten: {
     wss: 'wss://ropsten.infura.io/ws/v3/65b4470058624aa493c1944328b19ec0',
     http: 'https://ropsten.infura.io/v3/65b4470058624aa493c1944328b19ec0'
@@ -106,12 +101,19 @@ export const networks = {
     http: 'https://goerli.infura.io/v3/65b4470058624aa493c1944328b19ec0'
   },
   mainnet: {
-    wss: 'wss://mainnet.infura.io/ws/v3/65b4470058624aa493c1944328b19ec0',
-    http: 'https://mainnet.infura.io/v3/65b4470058624aa493c1944328b19ec0'
+    wss: '',
+    http: 'http://192.168.215.27:8545'
   }
 }
 export function httpProviderForNetwork(networkKey: string) {
   const network = networks[networkKey]
   const url = network.http
   return new HttpProvider(url)
+}
+
+/*
+*
+* */
+export function getNetwork(networkKey: string){
+  return networks[networkKey]
 }
