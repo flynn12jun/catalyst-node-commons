@@ -101,7 +101,7 @@ export const networks = {
     http: 'https://goerli.infura.io/v3/65b4470058624aa493c1944328b19ec0'
   },
   mainnet: {
-    wss: '',
+    wss: 'ws://192.168.215.27:8546',
     http: 'http://192.168.215.27:8545'
   }
 }
